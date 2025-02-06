@@ -1,0 +1,347 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+/*Stylize each scene by adding background colors, fonts, 
+style using boarders, margin, and padding*/
+
+img{text-align: center;
+        width:550px;
+        border-radius: 15px;}
+
+h1{font-family: "Mali", serif;}
+
+h2{font-family: "Mali", serif;}
+
+.background{display: flex;
+                justify-content: space-evenly;}
+
+.achievements{text-align: right;
+        border-style: dashed;
+        border-color: #7ca50b;
+        background-color: rgb(249, 255, 168);
+        border-width:4px;
+        border-radius: 15px;
+        padding: 10px;
+        float:right;
+        width: 180px;}
+
+.achievement1Img{
+        display:none;
+        width: 150px;
+        height:115px;
+        border-radius: 1000px;
+        border-width: 8px;
+        border-style:inset;
+        border-color: #7ca50b;}
+
+.achievement2Img{    
+                display:none;
+                height:115px;
+                width: 150px;
+                border-radius: 1000px;
+                border-width: 8px;
+                border-style:inset;
+                border-color: #7ca50b;}
+
+.achievement3Img{
+                        display:none;
+                        width: 150px;
+                        border-radius: 1000px;
+                        border-width: 8px;
+                        border-style:inset;
+                        border-color: #7ca50b;}
+
+.achievement4Img{
+                                display:none;
+                                width: 150px;
+                                height:115px;
+                                border-radius: 1000px;
+                                border-width: 8px;
+                                border-style:inset;
+                                border-color: #7ca50b;}
+
+.achievement5Img{
+                                        display:none;
+                                        width: 150px;
+                                        height:115px;
+                                        border-radius: 1000px;
+                                        border-width: 8px;
+                                        border-style:inset;
+                                        border-color: #7ca50b;}
+
+button{
+        font-family: "Mali", serif;
+        border-style: double;
+        border-color: #7ca50b;
+        background-color:rgb(253, 255, 208);
+        border-width:8px;
+        border-radius: 15px;
+        padding: 10px;
+        color:#4c6700;}
+        
+.help{display:none;
+        justify-content: center;}
+
+body {
+        background-color: rgb(253, 255, 208);
+        color:#4c6700;
+        text-align:center;
+        border-radius: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding:15px;
+        border-width:2px;
+        border-color:white;}
+
+.opening-Scene{text-align: center;
+                border-style: double;
+                border-color: #7ca50b;
+                background-color: rgb(249, 255, 168);
+                border-width:8px;
+                border-radius: 15px;
+                padding: 10px;
+                margin-left: 400px;
+                margin-right: 400px;
+                img{width:350px;}}
+
+.next-Scene{display:none;
+        text-align: center;
+        border-style: double;
+        border-color: #7ca50b;
+        background-color: rgb(249, 255, 168);
+        border-width:8px;
+        border-radius: 15px;
+        padding: 10px;
+        margin-left: 400px;
+        margin-right: 400px;
+        img{width:350px;}}
+
+.open-Fridge{display:none;
+        text-align: center;
+        border-style: double;
+        border-color: #7ca50b;
+        background-color: rgb(249, 255, 168);
+        border-width:8px;
+        border-radius: 15px;
+        padding: 10px;
+        margin-left: 400px;
+        margin-right: 400px;}
+                
+.option-A-Scene{display:none;
+        text-align: center;
+        border-style: double;
+        border-color: #7ca50b;
+        background-color: rgb(249, 255, 168);
+        border-width:8px;
+        border-radius: 15px;
+        padding: 10px;
+        margin-left: 400px;
+        margin-right: 400px;
+        img{width:350px;}}
+
+.option-A1-Scene{display:none;
+        text-align: center;
+        border-style: double;
+        border-color: #7ca50b;
+        background-color: rgb(249, 255, 168);
+        border-width:8px;
+        border-radius: 15px;
+        padding: 10px;
+        margin-left: 400px;
+        margin-right: 400px;}
+
+.option-A1-1-Scene{display:none;
+                text-align: center;
+                border-style: double;
+                border-color: #7ca50b;
+                background-color: rgb(249, 255, 168);
+                border-width:8px;
+                border-radius: 15px;
+                padding: 10px;
+                margin-left: 400px;
+                margin-right: 400px;}
+
+.option-A1-2-Scene{display:none;
+                        text-align: center;
+                        border-style: double;
+                        border-color: #7ca50b;
+                        background-color: rgb(249, 255, 168);
+                        border-width:8px;
+                        border-radius: 15px;
+                        padding: 10px;
+                        margin-left: 400px;
+                        margin-right: 400px;}
+
+.option-A2-Scene{display:none;
+        text-align: center;
+        border-style: double;
+        border-color: #7ca50b;
+        background-color: rgb(249, 255, 168);
+        border-width:8px;
+        border-radius: 15px;
+        padding: 10px;
+        margin-left: 400px;
+        margin-right: 400px;}
+
+.option-A2-1-Scene{display:none;
+                text-align: center;
+                border-style: double;
+                border-color: #7ca50b;
+                background-color: rgb(249, 255, 168);
+                border-width:8px;
+                border-radius: 15px;
+                padding: 10px;
+                margin-left: 400px;
+                margin-right: 400px;}
+
+.option-A2-2-Scene{display:none;
+        text-align: center;
+        border-style: double;
+        border-color: #7ca50b;
+        background-color: rgb(249, 255, 168);
+        border-width:8px;
+        border-radius: 15px;
+        padding: 10px;
+        margin-left: 400px;
+        margin-right: 400px;}
+
+.option-A2-3-Scene{display:none;
+                text-align: center;
+                border-style: double;
+                border-color: #7ca50b;
+                background-color: rgb(249, 255, 168);
+                border-width:8px;
+                border-radius: 15px;
+                padding: 10px;
+                margin-left: 400px;
+                margin-right: 400px;
+                img{text-align: center;
+                        width:450px;
+                        border-radius: 15px;}}
+
+.option-A2-4-Scene{display:none;
+                                text-align: center;
+                                border-style: double;
+                                border-color: #7ca50b;
+                                background-color: rgb(249, 255, 168);
+                                border-width:8px;
+                                border-radius: 15px;
+                                padding: 10px;
+                                margin-left: 400px;
+                                margin-right: 400px;}
+
+.option-A2-5-Scene{display:none;
+                                        text-align: center;
+                                        border-style: double;
+                                        border-color: #7ca50b;
+                                        background-color: rgb(249, 255, 168);
+                                        border-width:8px;
+                                        border-radius: 15px;
+                                        padding: 10px;
+                                        margin-left: 400px;
+                                        margin-right: 400px;}
+
+.option-A3-Scene{display:none;
+        text-align: center;
+        border-style: double;
+        border-color: #7ca50b;
+        background-color: rgb(249, 255, 168);
+        border-width:8px;
+        border-radius: 15px;
+        padding: 10px;
+        margin-left: 400px;
+        margin-right: 400px;}
+
+.option-A3-1-Scene{display:none;
+                text-align: center;
+                border-style: double;
+                border-color: #7ca50b;
+                background-color: rgb(249, 255, 168);
+                border-width:8px;
+                border-radius: 15px;
+                padding: 10px;
+                margin-left: 400px;
+                margin-right: 400px;}
+
+.option-A3-2-Scene{display:none;
+                        text-align: center;
+                        border-style: double;
+                        border-color: #7ca50b;
+                        background-color: rgb(249, 255, 168);
+                        border-width:8px;
+                        border-radius: 15px;
+                        padding: 10px;
+                        margin-left: 400px;
+                        margin-right: 400px;}
+
+.option-B-Scene{display:none;
+        text-align: center;
+        border-style: double;
+        border-color: #7ca50b;
+        background-color: rgb(249, 255, 168);
+        border-width:8px;
+        border-radius: 15px;
+        padding: 10px;
+        margin-left: 400px;
+        margin-right: 400px;
+        img{width:350px;}}
+
+.option-B1-Scene{display:none;
+        text-align: center;
+        border-style: double;
+        border-color: #7ca50b;
+        background-color: rgb(249, 255, 168);
+        border-width:8px;
+        border-radius: 15px;
+        padding: 10px;
+        margin-left: 400px;
+        margin-right: 400px;}
+
+.option-B2-Scene{display:none;
+        text-align: center;
+        border-style: double;
+        border-color: #7ca50b;
+        background-color: rgb(249, 255, 168);
+        border-width:8px;
+        border-radius: 15px;
+        padding: 10px;
+        margin-left: 400px;
+        margin-right: 400px;}
+
+.option-B3-Scene{display:none;
+                text-align: center;
+                border-style: double;
+                border-color: #7ca50b;
+                background-color: rgb(249, 255, 168);
+                border-width:8px;
+                border-radius: 15px;
+                padding: 10px;
+                margin-left: 400px;
+                margin-right: 400px;}
+
+.option-B4-Scene{display:none;
+                        text-align: center;
+                        border-style: double;
+                        border-color: #7ca50b;
+                        background-color: rgb(249, 255, 168);
+                        border-width:8px;
+                        border-radius: 15px;
+                        padding: 10px;
+                        margin-left: 400px;
+                        margin-right: 400px;}
+
+.achievement1{width: 80%;
+        margin: 4% 10% 5% 10%;
+                }
+
+
+
+
+/*Hide the scenes that are not be be revealed until a click funtions is activated 
+use display:none*/
+
+
+
+
+
+
+
+
